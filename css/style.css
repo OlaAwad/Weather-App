@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(217deg,#151515, #212121);
+}
+.oneDay{
+    height: 450px;
+    background: linear-gradient(50deg,#151515, #282626);
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 5%;
+}
+.city{
+    font-size: 1.5rem;
+    color: #4B9BE3;
+}
+.temp{
+    font-size: 3rem;
+}
+
+.condition{
+    color: #4B9BE3;
+    font-size: 0.8rem;
+}
+.fa-umbrella{
+    transform: rotate(45deg);
+}
+.details{
+    color: gray;
+}
+.minTemp, .minTemp2{
+    font-size: 1.5rem;
+}
+.highLowTemp{
+    margin-top: 1rem;
+}
+.dayNight{
+    width: 80px;
+}

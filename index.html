@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="bg-dark py-2">
+      <div class="container text-light fs-3">
+        Weather
+        <span class="fw-bold">Forecast</span>
+      </div>
+    </header>
+    <div class="container">
+      <div>
+        <input
+          type="text"
+          class="form-control mt-4 w-50 m-auto"
+          placeholder="Search by city"
+          id="search"
+        />
+
+        <div class="days row mt-4 text-light">
+          <div class="col-md-4">
+            <div class="oneDay p-5">
+              <div class="d-flex justify-content-between">
+                <p class="day"></p>
+                <p class="date"></p>
+              </div>
+              <hr />
+              <div class="city"></div>
+              <div class="d-flex justify-content-between mt-5">
+                <div class="temp fw-bold"></div>
+                <div>
+                  <img src="" class="dayNight" alt="" />
+                </div>
+              </div>
+              <br />
+              <div class="condition"></div>
+              <br />
+              <div class="details d-flex justify-content-between">
+                <div class="first">
+                  <span>
+                    <i class="fa-solid fa-umbrella"></i>
+                    <span class="humidity"></span>
+                  </span>
+                </div>
+                <div class="second">
+                  <span>
+                    <i class="fa-solid fa-wind"></i>
+                    <span class="wind"></span>
+                  </span>
+                </div>
+                <div class="third">
+                  <span>
+                    <i class="fa-solid fa-compass"></i>
+                    East
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="oneDay p-5 text-center">
+              <div>
+                <p class="pb-3 day2"></p>
+              </div>
+              <hr />
+              <br />
+              <span class="cond">
+                <img src="" class="condIcon" alt="" />
+              </span>
+              <br />
+              <div class="highLowTemp">
+                <div class="fw-bold fs-2 maxTemp"></div>
+                <div class="minTemp"></div>
+              </div>
+              <br />
+              <div class="conditionWord condition"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="oneDay p-5 text-center">
+              <div>
+                <p class="pb-3 day3"></p>
+              </div>
+              <hr />
+              <br />
+              <span>
+                <img src="" class="condImg" alt="" />
+              </span>
+              <br />
+              <div class="highLowTemp">
+                <div class="fw-bold fs-2 maxTemp2"></div>
+                <div class="minTemp2"></div>
+              </div>
+              <br />
+              <div class="condition condWord"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+  </body>
+</html>
